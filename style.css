@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0;
+}
+
+.main-info {
+  margin-top: 228px;
+  margin-left: 148px;
+  margin-right: 148px;
+  display: flex;
+  padding-bottom: 100px;
+}
+.main-info div h1 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Heebo", sans-serif;
+  line-height: 60px;
+}
+.main-info div p {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 150px;
+}
+.main-info img {
+  width: 243px;
+  height: 243px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  padding: 0;
+  box-shadow: -5px 10px rgba(255, 99, 71, 0.76);
+}
+
+.main-profil {
+  display: flex;
+  background-color: rgba(255, 99, 71, 0.76);
+  color: #000000;
+}
+.main-profil div {
+  width: 398px;
+  margin-left: 148px;
+  font-size: 16px;
+  font-family: "Heebo" sans-serif;
+}
+.main-profil div h3 {
+  font-weight: bold;
+}
+.main-profil div h5 {
+  line-height: 0px;
+  color: #000000;
+}
+.main-profil div p {
+  font-size: 16px;
+}
+.main-profil div img {
+  width: 16px;
+  height: 16px;
+  margin-top: 0 px;
+}
+
+.main-experience {
+  margin-left: 148px;
+  margin-right: 148px;
+}
+.main-experience h3 {
+  color: #136223;
+}
+
+.main-experience-1 {
+  display: flex;
+}
+.main-experience-1 img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+  padding: 0;
+}
+.main-experience-1 div h2 {
+  padding-left: 50px;
+  margin-top: 0;
+  color: #21243D;
+}
+
+.exp-1 {
+  margin-top: 0;
+}
+.exp-1 div {
+  display: flex;
+  margin-top: 10px;
+}
+.exp-1 div p {
+  background-color: #21243D;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  font-size: 18px;
+}
+.exp-1 div h4 {
+  font-size: 20px;
+  color: #21243d9f;
+  display: flex;
+  padding-left: 10px;
+}
+.exp-1 p {
+  margin-left: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+footer div.medsos {
+  align-items: center;
+  display: flex;
+  margin-left: 41%;
+}
+footer div.medsos img {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-items: center;
+}
+footer p {
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
