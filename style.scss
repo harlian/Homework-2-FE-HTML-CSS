@@ -1,0 +1,178 @@
+$primary-color: #21243D;
+$secondary-color: #136223;
+$sh-color: rgba(255, 99, 71, 0.76); //rgb(152, 152, 209);
+$bg-color: #FFFFFF(100,100,100);
+$text-color: #000000;
+$line-color: #E0E0E0;
+
+//tambahan font-family
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+//body{
+    
+    //margin-bottom
+//}
+
+main {
+    margin:0;
+}
+
+// Section Name & Photo
+.main-info {
+    margin-top: 228px;
+    margin-left: 148px;
+    margin-right: 148px;
+    display: flex;
+    padding-bottom: 100px;
+    div {
+        h1 {
+            font-size: 44px;
+            font-style: normal;
+            font-weight: bold;
+            font-family: 'Heebo', sans-serif;
+            line-height: 60px;
+        }
+        p {
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-right: 150px;
+        }
+    }
+    img {
+        width: 243px;
+        height: 243px;
+        object-fit: cover;
+        border-radius: 100%;
+        padding: 0;
+        box-shadow: -5px 10px $sh-color;
+    }
+}
+
+//Section Contact & Education
+.main-profil {
+    display: flex;
+    background-color: $sh-color;
+    color: $text-color;
+    
+    div {
+        width: 398px;
+        margin-left: 148px;
+        font-size: 16px;
+        font-family: 'Heebo' sans-serif;
+        //line-break: 0px;
+    
+        h3 {
+        font-weight: bold;
+        }
+        
+        h5 {
+            line-height: 0px;
+            color: $text-color;
+        }
+
+        p {
+            font-size: 16px;  
+        }
+
+        img {
+            width: 16px;
+            height: 16px;
+            margin-top: 0 px;
+        }
+    }
+}
+
+//Section Experience
+.main-experience{
+    margin-left: 148px;
+    margin-right: 148px;
+    //display: flex;
+    h3 {
+        color: $secondary-color;
+    }
+}
+
+//Experience Photo
+.main-experience-1{
+    display: flex;
+    //line-height: 10px;
+    img {
+        width: 246px;
+        height: 180px;
+        //object-fit: cover;
+        border-radius: 6px;
+        padding: 0;
+    }
+    div h2 {
+            //margin-left: ;
+            padding-left: 50px;
+            margin-top: 0;
+            color: $primary-color
+          //font-family
+    }
+}
+
+//Experience Detail 
+.exp-1 {
+    margin-top: 0;
+    
+    div {
+        display: flex;
+        margin-top: 10px;
+        //margin-left: 50px;
+        
+    p {
+        // year box
+        //height: 25px;
+        background-color: $primary-color;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        //font-weight: bold;
+        padding: 7px;
+        font-size: 18px;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: #21243d9f;
+            display: flex;
+            padding-left: 10px;
+        }
+    }
+    p {
+        margin-left: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+    }
+}
+
+//Section - Footer
+footer {
+    margin-top: 100px;
+    text-align: center;
+    
+    div.medsos { 
+        align-items: center;
+        //justify-content: space-around;
+        display: flex;
+        margin-left: 41%;
+
+        img {
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: center;
+        }
+    }
+    
+    p{
+        font-size: 14px;
+        //text-align: center;
+    }   
+}
